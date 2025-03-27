@@ -10,4 +10,4 @@ Each problem folder typically contains:
 - `solution.cpp` – my C++ implementation of the solution
 - Additional notes if needed
 
-Example folder:
+
