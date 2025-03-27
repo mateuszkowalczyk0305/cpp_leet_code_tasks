@@ -48,4 +48,4 @@ Because `nums[0] + nums[1] == 9`, we return `[0, 1]`.
 [LeetCode Problem #1 – Two Sum](https://leetcode.com/problems/two-sum/)
 
 ## Result
-![LeetCode Result](assets/twoSum.png)
+![LeetCode Result](../assets/twoSum.png)

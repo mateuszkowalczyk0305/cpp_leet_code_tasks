@@ -68,4 +68,4 @@ M = 1000, CM = 900, XC = 90, IV = 4 → 1000 + 900 + 90 + 4 = 1994
 [LeetCode Problem #13 – Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 ## Result  
-![LeetCode Result](assets/romanToInteger.png)
+![LeetCode Result](../assets/romanToInteger.png)
