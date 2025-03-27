@@ -8,6 +8,7 @@ Each folder is named after the problem and includes its difficulty level in squa
 Each problem folder typically contains:
 - `task_content.md` – the description or summary of the problem
 - `solution.cpp` – my C++ implementation of the solution
+- Results
 - Additional notes if needed
 
 
