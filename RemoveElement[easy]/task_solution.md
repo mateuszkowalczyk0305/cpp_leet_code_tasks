@@ -1,8 +1,12 @@
-# 14. Longest Common Prefix [Easy]
+# 27. Remove Element [Easy]
 
-Write a function to find the longest common prefix string amongst an array of strings.
+Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` **in-place**. The relative order of the elements may be changed.
 
-If there is no common prefix, return an empty string `""`.
+Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the **first part** of the array `nums`. More formally, if there are `k` elements after removing the duplicates, then the first `k` elements of `nums` should hold the final result. It does not matter what you leave beyond the first `k` elements.
+
+Return `k` after placing the final result in the first `k` slots of `nums`.
+
+Do **not** allocate extra space for another array. You must do this by **modifying the input array in-place** with `O(1)` extra memory.
 
 ---
 
@@ -10,33 +14,35 @@ If there is no common prefix, return an empty string `""`.
 
 ### Example 1:
 **Input:**  
-`strs = ["flower", "flow", "flight"]`  
+`nums = [3,2,2,3], val = 3`  
 **Output:**  
-`"fl"`  
+`2, nums = [2,2,_,_]`  
 **Explanation:**  
-The longest common prefix among all strings is `"fl"`.
+Your function should return `k = 2`, with the first two elements of `nums` being `2`.  
+It does not matter what you leave beyond the returned `k` (hence they are underscores).  
 
 ---
 
 ### Example 2:
 **Input:**  
-`strs = ["dog", "racecar", "car"]`  
+`nums = [0,1,2,2,3,0,4,2], val = 2`  
 **Output:**  
-`""`  
+`5, nums = [0,1,4,0,3,_,_,_]`  
 **Explanation:**  
-There is no common prefix among the input strings.
+Your function should return `k = 5`, with the first five elements of `nums` containing `0`, `1`, `4`, `0`, and `3`.  
+The order of the elements can be changed. It does not matter what you leave beyond the returned `k`.
 
 ---
 
 ## 📌 Constraints
-- 1 ≤ `strs.length` ≤ 200  
-- 0 ≤ `strs[i].length` ≤ 200  
-- `strs[i]` consists of only lowercase English letters if it is non-empty.
+- 0 ≤ `nums.length` ≤ 100  
+- 0 ≤ `nums[i]` ≤ 50  
+- 0 ≤ `val` ≤ 100  
 
 ---
 
 ## 🔗 Source  
-[LeetCode Problem #14 – Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+[LeetCode Problem #27 – Remove Element](https://leetcode.com/problems/remove-element/)
 
 ## Result  
-![LeetCode Result](../assets/longestCommonPrefix.png)
+![LeetCode Result](../assets/removeElement.png)
