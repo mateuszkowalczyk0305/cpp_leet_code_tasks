@@ -45,5 +45,5 @@ When we pair (2, 1), (2, 5), and (6, 6), the sum of min(2, 1) + min(2, 5) + min(
 [LeetCode Problem #561 – Array Partition](https://leetcode.com/problems/array-partition/)
 
 ## Result
-![LeetCode Result](../assets/arrayPartition.png)
+![LeetCode Result](../assets/arrayPartion.png)
 
