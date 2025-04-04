@@ -5,7 +5,6 @@ bool isAnagram(std::string s, std::string t) {
   if (s.length() != t.length()) {
     return false;
   }
-  //   std::string temp;
 
   for (int i = 0; i < s.length(); i++) {
     for (int j = 0; j < s.length(); j++) {
