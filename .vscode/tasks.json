@@ -10,7 +10,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/validAnagram.exe"
+                "${fileDirname}/a.exe"
             ],
             "group": {
                 "kind": "build",

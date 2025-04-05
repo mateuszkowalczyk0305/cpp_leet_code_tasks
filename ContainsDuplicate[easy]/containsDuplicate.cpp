@@ -1,18 +1,15 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
 
 bool containsDuplicate(std::vector<int> &nums) {
-  bool result = false;
-  for (int i = 0; i < nums.size(); i++) {
-    for (int j = nums.size() - 1; j >= 0; j--) {
-      if (nums[i] == nums[j] && i != j) {
-        result = true;
-        goto end;
-      }
+  std::sort(nums.begin(), nums.end());
+  for (int i = 1; i < nums.size(); i++) {
+    if (nums[i] == nums[i - 1]) {
+      return true;
     }
   }
-end:
-  return result;
+  return false;
 }
 
 int main() {
