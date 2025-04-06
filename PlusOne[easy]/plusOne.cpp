@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -14,18 +15,13 @@ std::vector<int> plusOne(std::vector<int> &digits) {
   number++;
 
   std::vector<int> result;
-  std::string numberSize = std::to_string(number);
 
-  for (int i = 0; i < numberSize.length(); i++) {
-    std::stoi(numberSize);
-    result.push_back(numberSize[i]);
+  while (number) {
+    result.push_back(number % 10);
+    number /= 10;
   }
 
-  for (int res : result) {
-    std::cout << res << " ";
-  }
-
-  std::cout << "\n";
+  std::reverse(result.begin(), result.end());
 
   return result;
 }
