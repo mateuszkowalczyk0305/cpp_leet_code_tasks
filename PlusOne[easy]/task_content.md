@@ -41,5 +41,5 @@ Thus, the result should be [1,0].
 - `0 <= digits[i] <= 9`
 
 ### Result
-The result should be an array of integers representing the incremented large integer.
+![LeetCode Result](../assets/PlusOne.png)
 
