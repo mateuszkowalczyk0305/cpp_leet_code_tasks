@@ -2,7 +2,6 @@
 #include <vector>
 
 std::vector<int> productExceptSelf(const std::vector<int> &nums) {
-  // Default implementation
   int n = nums.size();
   std::vector<int> result(n, 1);
 
