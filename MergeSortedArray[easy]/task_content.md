@@ -46,5 +46,5 @@ Note that the final sorted array should not be returned by the function, but ins
 [LeetCode Problem #88 – Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 ## ✅ Result  
-
+![LeetCode Result](../assets/mergeSorteed.png)
 
